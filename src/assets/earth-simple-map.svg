@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1024" viewBox="0 0 2048 1024">
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2f78bf"/>
+      <stop offset="100%" stop-color="#194a7a"/>
+    </linearGradient>
+    <filter id="soften" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <rect width="2048" height="1024" fill="url(#ocean)"/>
+
+  <!-- North America -->
+  <path fill="#7bbd72" d="M170 220 L270 150 L410 120 L520 145 L600 190 L620 245 L580 310 L530 345 L470 355 L430 410 L350 430 L280 410 L235 360 L200 325 L155 300 L140 260 Z"/>
+  <path fill="#76b36e" d="M430 470 L500 500 L525 560 L500 620 L435 655 L390 620 L370 560 Z"/>
+
+  <!-- South America -->
+  <path fill="#6eaa66" d="M560 510 L620 550 L665 640 L650 730 L610 820 L545 880 L500 860 L485 790 L500 700 L530 630 Z"/>
+
+  <!-- Greenland -->
+  <path fill="#89cf7f" d="M610 95 L670 70 L735 90 L760 130 L730 170 L670 185 L620 155 Z"/>
+
+  <!-- Europe + Asia -->
+  <path fill="#80c577" d="M880 190 L980 145 L1120 130 L1230 140 L1340 170 L1450 185 L1560 170 L1660 200 L1750 250 L1800 310 L1780 360 L1710 390 L1630 400 L1560 430 L1480 470 L1390 495 L1285 500 L1180 485 L1100 470 L1020 440 L950 380 L885 350 L845 300 Z"/>
+  <path fill="#74b26c" d="M1250 520 L1310 540 L1360 590 L1370 650 L1330 705 L1260 715 L1200 680 L1175 620 L1190 560 Z"/>
+
+  <!-- Africa -->
+  <path fill="#78b970" d="M1030 480 L1110 510 L1160 585 L1170 680 L1130 770 L1060 850 L990 835 L940 755 L930 665 L965 570 Z"/>
+
+  <!-- Arabia / India -->
+  <path fill="#70ad68" d="M1180 560 L1240 580 L1260 620 L1240 660 L1190 660 L1160 620 Z"/>
+  <path fill="#70ad68" d="M1320 580 L1375 610 L1390 650 L1370 690 L1320 705 L1285 680 L1290 625 Z"/>
+
+  <!-- Australia -->
+  <path fill="#7abf72" d="M1560 720 L1650 700 L1740 725 L1780 780 L1750 845 L1675 870 L1600 850 L1545 800 Z"/>
+
+  <!-- Antarctica -->
+  <path fill="#a8dca0" d="M0 925 L180 900 L360 910 L550 895 L740 910 L940 900 L1140 920 L1320 900 L1520 915 L1700 900 L1870 915 L2048 905 L2048 1024 L0 1024 Z"/>
+
+  <!-- soft coast enhancement -->
+  <g opacity="0.13" filter="url(#soften)">
+    <path fill="#ffffff" d="M165 225 L620 245 L530 345 L430 410 L280 410 L155 300 Z"/>
+    <path fill="#ffffff" d="M880 190 L1450 185 L1780 360 L1390 495 L1020 440 Z"/>
+    <path fill="#ffffff" d="M1030 480 L1170 680 L1060 850 L930 665 Z"/>
+  </g>
+</svg>
